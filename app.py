@@ -15,7 +15,7 @@ db_config = {
     'port': 3307
 }
 
-# se modifica el pueto raiz ----------
+# se modifica el pueto raiz html----------
 @app.route('/')
 def index():
     return render_template('index.html')

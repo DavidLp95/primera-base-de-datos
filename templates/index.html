@@ -7,10 +7,38 @@
     <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
     <div class="container">
         <h1>Bienvenido a la Página de Aprendizaje</h1>
         <p>Esta es una página de presentación. Haga clic en el botón de abajo para ir al formulario.</p>
         <a href="{{ url_for('formulario') }}" class="button">Ir al Formulario</a>
     </div>
+    
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una organización dedicada al aprendizaje y la educación. Nuestro objetivo es proporcionar recursos educativos accesibles para todos.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta, no dudes en contactarnos:</p>
+        <ul>
+            <li>Email: contacto@example.com</li>
+            <li>Teléfono: +123 456 789</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Página de Aprendizaje. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
