@@ -10,6 +10,32 @@ body {
     height: 100vh;
 }
 
+/* Estilos del contenedor principal */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    /* Estilos para el botón de navegación */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 16px;
+    color: white;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #4cae4c;
+}
+}
+
 /* Estilos del contenedor del formulario */
 form {
     background-color: #ffffff;

@@ -19,6 +19,10 @@ db_config = {
 @app.route('/')
 def index():
     return render_template('index.html')
+    
+@app.route('/formulario')
+def formulario():
+    return render_template('formulario.html')
 
 @app.route('/submit', methods=['POST'])
 def submit():
