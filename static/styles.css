@@ -142,3 +142,12 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
